@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #242423;
+        color: #CFDBD5;
+        margin: 0;
+        padding-top: 100vh;
+    }
+
+    .utility {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nav {
+        display: flex;
+
+        width: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateX(50%);
+        z-index: 1000;
+    }
+
+    #nav-wo {
+        background-color: #333533;
+        color: #F5CB5C;
+        display: flex;
+        justify-content: center;
+        /* horizontally center */
+        align-items: center;
+        list-style: none;
+        gap: 10vh;
+        height: 20vh;
+        width: 100vh;
+        border-radius: 10px;
+        box-shadow: -2px 0px 50px -3px #ececec;
+
+    }
+    #nav-wo li a:hover {
+    color: black;
+    background-color: white;
+}
+
+    #nav-wo li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav-wo li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+
+
+    }
+</style>
+
+<body>
+    <section class="nav utility">
+        <ul id="nav-wo">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Service">Services</a></li>
+            <li><a href="#faqs">FAQS</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </section>
+
+    <div id="Home" class=" utility">
+        <h1>Home</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis pariatur aspernatur ullam et provident
+            alias. Accusamus repudiandae blanditiis quos tempore error aliquam non. Aliquid cum distinctio molestiae,
+            ducimus est fugiat.</p>
+    </div>
+
+    <div id="Service" class=" utility">
+        <h1>Service</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatibus, a molestias voluptate
+            quaerat sit, nihil distinctio animi temporibus nulla esse eius eveniet quas nesciunt? Rem soluta accusamus
+            voluptas! Velit!</p>
+    </div>
+
+    <div id="faqs" class=" utility">
+        <h1>
+            FAQS
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia sunt, eveniet rem placeat, beatae
+            labore aut ipsum id harum molestiae assumenda, ut nesciunt tenetur. Beatae saepe odio corporis perferendis.
+        </p>
+    </div>
+    <div id="about" class=" utility">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, totam. Hic dolorum distinctio autem ea?
+            Magni iure molestias temporibus inventore earum, ipsum quis necessitatibus, incidunt aut itaque, doloremque
+            quaerat autem!</p>
+    </div>
+
+</body>
+<script src="js.js"></script>
+
+</html>
